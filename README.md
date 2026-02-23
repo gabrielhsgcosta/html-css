@@ -3,4 +3,4 @@ Curso de HTML5 e CSS3 do CursoemVideo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href= "https://gabrielhsgcosta.github.io/html-css/desafios/d010/android.html">Executar o Desafio 010</a>
+<a href= "https://gabrielhsgcosta.github.io/html-css/desafios/ex001/index.html">Executar o exercício 001</a>
