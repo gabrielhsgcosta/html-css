@@ -97,6 +97,7 @@ main p {
     padding: 10px;
     text-align: justify;
     line-height: 1.8em;
+    text-indent: 30px;
 }
 
 img {
