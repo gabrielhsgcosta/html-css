@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px 10px 0px 10px;
+        }
+
+        article > aside {
+            background-color: gray;
+            padding: 2px 10px;
+            
+        }
+
+        header a:hover {
+            color: red;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 1px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            color: black;
+            margin-right: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header a:active {
+            color: white;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+       <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+       </nav> 
+    </header>
+    <main>
+        <section id="assuntos">
+            <p style="text-align: center;">Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati tenetur, earum autem aut sint iste adipisci ex quia itaque laborum voluptatem minima saepe sed placeat quaerat nesciunt dolore! Ratione.</p>
+                <aside>
+                    Artigo escrito por Gabriel
+                </aside>
+            </article>
+            <hr>
+            <article>
+                <h2>Notícia dos EUA</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda labore recusandae est. Magni aperiam, amet neque nulla voluptatum dolorem quis ipsum vero nemo sequi eos. Doloremque alias amet dolore expedita?</p>
+                <aside>Artigo escrito por Gabriel</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gabriel</p>
+    </footer>
+</body>
+</html>
